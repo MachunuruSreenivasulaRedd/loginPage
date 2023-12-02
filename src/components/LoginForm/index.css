@@ -1,0 +1,272 @@
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #fff;
+    padding: 10px;
+}
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #B60336;
+    padding: 15px 30px 15px 30px;
+    border-radius: 9px;
+    width: 400px;
+    height: 100vh;
+}
+.dooper{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+.heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.para{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.headingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 65%;
+    flex-wrap: wrap;
+}
+.ratingContainer{
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 15px;
+}
+.ratingProfile{
+    display: flex;
+    align-items: center;
+}
+.ratingImg{
+    margin-right: 10px;
+}
+.stars{
+    margin-bottom: 10px;
+}
+.timson{
+    font-weight: 500;
+    color: black;
+}
+.ratingText{
+    color: #1A1C1F;
+}
+
+/*RIGHT PART*/
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-width: 50%;
+
+}
+.welcomeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.welcome{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1A1C1F;
+}
+.welcomePara{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1C1F;
+    margin-top: 10px;
+}
+.span_dooper{
+    color:#E40443;
+}
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90vh;
+    width: 900px;
+}
+.label{
+    color: #8D98A4;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.loginBtn{
+    background-color: #E40443;
+    color: #fff;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 10PX;
+    height: 40px;
+    cursor: pointer;
+}
+.phoneNumberContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.checkBoxContainer{
+    display: flex;
+    align-items: center;
+}
+.checkPara{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1C1F;
+
+}
+.checkBox{
+    height: 18px;
+    width: 18px;
+    margin-right: 13px;
+}
+.bottomText{
+    color: #5B6576;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    align-self: center;
+    
+}
+.loginVerifyContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 90vh;
+    text-align: center;
+    width: 900px;
+}
+.verify{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1A1C1F;
+}
+.verifyPara{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1C1F;
+    margin-top: 10px;
+}
+.otpContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+.otpInput{
+    border-radius: 7px;
+    width: 40px;
+    height: 30px;
+}
+.verifyBtn{
+    background-color: #E40443;
+    color: #fff;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 10PX;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+/*successful*/
+.successful{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1A1C1F;
+    margin-top: 20px;
+}
+.successfulPara{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1A1C1F;
+    margin-top: 10px;
+}
+.successBtn{
+    background-color: #FCE6EC;
+    color: #E40443;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 20PX;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.successContainer{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 900px;
+}
+.successImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    margin-top: 150px;
+}
+
+/*review*/
+.reviewContainer{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 900px;
+}
+.reviewImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    margin-top: 150px;
+    width: 410px;
+    text-align: center;
+}
+.review{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1A1C1F;
+    margin-top: 20px;
+}
+.reviewPara{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1A1C1F;
+    margin-top: 10px;
+}
