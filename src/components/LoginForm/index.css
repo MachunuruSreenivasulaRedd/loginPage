@@ -15,6 +15,11 @@
     border-radius: 9px;
     width: 400px;
     height: 100vh;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0c745dfc5dea9e73f4c36ec84aa39e41df892f50
 }
 .dooper{
     font-size: 16px;
@@ -62,6 +67,10 @@
     color: #1A1C1F;
 }
 
+<<<<<<< HEAD
+=======
+/*RIGHT PART*/
+>>>>>>> 0c745dfc5dea9e73f4c36ec84aa39e41df892f50
 
 .rightContainer{
     display: flex;
@@ -268,4 +277,8 @@
     font-weight: 500;
     color: #1A1C1F;
     margin-top: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0c745dfc5dea9e73f4c36ec84aa39e41df892f50
